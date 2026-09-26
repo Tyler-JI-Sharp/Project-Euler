@@ -1,0 +1,19 @@
+num1=1
+num2=1
+current_largest=0
+max_largest=0
+for x in range(1, 1000):
+    num2=1
+    for y in range(1, 1000):
+        current_largest=num1*num2
+        word=""
+        for z in range(0, len(str(current_largest))):
+            add=(len(str(current_largest))-1)-z
+            word=word+str(current_largest)[add]
+        if word==str(current_largest):
+            if max_largest<current_largest:
+                max_largest=current_largest
+        num2+=1
+    num1+=1
+    print(num1)
+print(max_largest)
