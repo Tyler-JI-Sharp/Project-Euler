@@ -1,4 +1,5 @@
 # Project-Euler
 My Project Euler code. I may make updated code for more efficiency when I improve at coding.
 I have completed the following challenges:
-Task One: Multiples of 3 and 5 under 1000. Efficency O(n)
+Task 1: Multiples of 3 and 5 under 1000. Efficency O(n). Completed in Python
+Task 2: Sum of even Fibonacci numbers under 4000000. Efficency O(n). Completed in Python
