@@ -1,0 +1,27 @@
+#For this, I wanted to cut down on code. So, I simplified things.
+#Checking for 16 also checks for 1,2,4, and 8
+#Checking for 20 also checks for 5, 10, and 20
+#Checking for 19 checks nothing else
+#Checking for 18 checks for 3,6 and 9
+#Checking for 14 checks for 7 as well.
+#This leaves only 11 through to 20.
+#11 and 20 only intersect on multiples of 220.
+#Therefore, we must check all multiples of 220.
+
+num1=220
+Trigger=True
+while Trigger:
+    if num1%11==0:
+        if num1%12==0:
+            if num1%13==0:
+                if num1%14==0:
+                    if num1%15==0:
+                        if num1%16==0:
+                            if num1%17==0:
+                                if num1%18==0:
+                                    if num1%19==0:
+                                        if num1%20==0:
+                                            print(num1)
+                                            break
+    num1+=220
+    print("h", num1)
