@@ -1,0 +1,20 @@
+import math
+
+
+def isprime(n):
+    trigger=True
+    for x in range(2, int(math.sqrt(n)+1)):
+        if n%x==0:
+            trigger=False
+    return trigger
+
+primes=0
+count=2
+cur_prime=0
+while primes<10001:
+    if isprime(count):
+        primes+=1
+        cur_prime=count
+    count+=1
+    print(primes)
+print(cur_prime)
