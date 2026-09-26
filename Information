@@ -6,3 +6,4 @@ Task 2: Sum of even Fibonacci numbers under 4000000. Efficency O(n). Completed i
 Task 3: Highest Prime Factor. Efficiency O(n^2) [Needs improvement]. Completed in Python
 Task 4: Highest palindrome from 3 digit multiplication. Efficiency O(n^2) [Needs improvement]. Completed in Python.
 Task 5: Smallest multiple of 1-20. Efficiency O(e^n), but was heavily optimised by LCM [Needs improvement]. Completed in Python.
+Task 6: Sum of numbers squared sub the sum of square numbers. Efficiency O(n). Completed in Python
