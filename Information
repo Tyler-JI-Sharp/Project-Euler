@@ -9,4 +9,5 @@ Task 5: Smallest multiple of 1-20. Efficiency O(e^n), but was heavily optimised 
 Task 6: Sum of numbers squared sub the sum of square numbers. Efficiency O(n). Completed in Python
 Task 7: 10001st prime number. Efficiency O(n^2) [Needs improvement]. Completed in Python
 Task 8: Greatest 13 digit adjacent sum. Efficiency O(n). Completed in Python
-Task 9: Pythagorean triplet that adds up to 1000. Efficincy O(n^2). Completed in Python
+Task 9: Pythagorean triplet that adds up to 1000. Efficiency O(n^2). Completed in Python
+Task 10: Sum of primes up to 2000000. Efficiency O(n^2) with Sieve of Eratosthenes. Completed in Python.
