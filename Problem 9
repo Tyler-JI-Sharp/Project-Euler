@@ -1,0 +1,18 @@
+import sys
+import math
+num1=1
+num2=1
+for x in range (0,1000):
+    for y in range (0,1000):
+        c=(num1**2)+(num2**2)
+        num3=math.sqrt(c)
+        new_num=num1+num2+num3
+        if new_num==1000:
+            print(num1,num2,num3)
+            new_num1=num1*num2*num3
+            print(new_num1)
+            sys.exit(0)
+        num2+=1
+    num1+=1
+    num2=0
+    print(num1)
